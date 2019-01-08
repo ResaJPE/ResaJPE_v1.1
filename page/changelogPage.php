@@ -8,7 +8,13 @@ include('template/menu.php');
 	<li>Création de la base de donnée</li>
 	<li>Ajout des fichiers du template AdminLTE</li>
 	<h2>Version: 1</h2>
-	<li>Mise à jour de la page de connexion au template</li>
+	<li>
+		Mise à jour de la page de connexion au template
+		<ul>
+			<h5>A corriger:</h5>
+			<li>L'erreur qui s'affiche automatiquement</li>
+		</ul>
+	</li>
 	<li>
 		Création de page d'inscription
 		<ul>
