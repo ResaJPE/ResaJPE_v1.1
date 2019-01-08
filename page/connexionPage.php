@@ -44,6 +44,7 @@
                 <?= $_SESSION['msg_success']; ?>
             </div>
             <?php unset($_SESSION['msg_success']); } ?>
+		<div>Compte visiteur: pauldurand/pwsio<br>Compte entreprise: antoinearnaud/pwsio<br>Compte CCI: anthonyjura/pwsio</div>
         </form>
     </div>
     <!-- /.login-box-body -->
