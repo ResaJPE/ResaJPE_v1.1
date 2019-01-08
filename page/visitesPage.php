@@ -91,7 +91,8 @@ include('template/footer.php');
 								if($i['etat'] == 3){ ?>
 							<td><span class="label label-rouge"><?= $i['Etat']?></span></td>
 						<?php } ?>
-						
+							
+							?>
 							<td><?= $i['choixService'] ?></td>
 							<td>	<div class="progress progress-xs">
 									<div <?php 								
@@ -103,7 +104,9 @@ include('template/footer.php');
 							
 						</tr>
 					  
-				  <?php }  ?>
+				  <?php }
+				    
+				  ?>
               </table>
             </div>
             <!-- /.box-body -->
