@@ -35,11 +35,3 @@ function inscriptionVisiteControle_defaultAction() {
 	}
 
 }
-
-function inscriptionVisiteControle_getVisites(){
-
-	$requete = 'SELECT visite.id AS "id", date, heureDebut, duree, entreprise.raisonSociale AS "nomEntreprise" FROM visite, entreprise WHERE entreprise.id = visite.entreprise_id AND visite.isAccepted=1 ORDER BY visite.date DESC';
-	$result = Connexion::query($requete);
-	return $result;
-
-}

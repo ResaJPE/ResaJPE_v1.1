@@ -26,6 +26,9 @@
 			  <div class="navbar-custom-menu">
 				<ul class="nav navbar-nav">
 					<li>
+						<a href="../www/index.php?controle=changelog"><i class="fas fa-exchange-alt"></i> Changelog</a>
+					</li>
+					<li>
 						<a href="../www/index.php?controle=parametres"><i class="fas fa-cogs"></i> Paramètres</a>
 					</li>
 					<li>
@@ -70,7 +73,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="../www/index.php?controle=inscriptionVisite">
+						<a href="../www/index.php?controle=inscription">
 							<i class="fas fa-plus"></i> <span>Inscription à une visite</span>
 						</a>
 					</li>
@@ -91,7 +94,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="../www/index.php?controle=inscriptionVisite">
+						<a href="../www/index.php?controle=inscription">
 							<i class="fas fa-plus"></i> <span>Demandes de visite</span>
 						</a>
 					</li>
@@ -112,7 +115,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="../www/index.php?controle=inscriptionVisite">
+						<a href="../www/index.php?controle=inscription">
 							<i class="fas fa-plus"></i> <span>Requête de visite</span>
 						</a>
 					</li>
