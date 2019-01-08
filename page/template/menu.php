@@ -7,15 +7,6 @@
 			  <!-- logo for regular state and mobile devices -->
 				<span class="logo-lg"><b><?= Config::APPLI_NAME ?></b></span> 
 			</a>
-			<!--<div>
-				<p><?php echo Config::APPLI_NAME.' '.Config::APPLI_VERSION; ?></p>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="../www/index.php?controle=parametres">Paramètres</a></li>
-					<li><a href="../www/index.php?controle=connexion&action=deconnecter">Déconnexion</a></li>
-				</ul>
-			</nav>-->
 			<nav class="navbar navbar-static-top">
 			  <!-- Sidebar toggle button-->
 			  <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
@@ -50,13 +41,6 @@
 				</div>
 			  </div>
 			<section class="sidebar">
-				<!--<nav>
-					<ul>
-						<li><a href="../www/index.php?controle=accueil">Accueil</a></li>
-						<li><a href="../www/index.php?controle=listes">Listes</a></li>
-						<li><a href="../www/index.php?controle=reservation">Réserver une salle</a></li>
-					</ul>
-				</nav>-->
 				<?php  //var_dump($_SESSION);
 				//Si le user est un particulier
 				if($_SESSION['type'] == 1){   ?>
@@ -73,7 +57,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="../www/index.php?controle=inscription">
+						<a href="../www/index.php?controle=inscriptionVisite">
 							<i class="fas fa-plus"></i> <span>Inscription à une visite</span>
 						</a>
 					</li>
@@ -94,7 +78,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="../www/index.php?controle=inscription">
+						<a href="../www/index.php?controle=inscriptionVisite">
 							<i class="fas fa-plus"></i> <span>Demandes de visite</span>
 						</a>
 					</li>
@@ -115,7 +99,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="../www/index.php?controle=inscription">
+						<a href="../www/index.php?controle=inscriptionVisite">
 							<i class="fas fa-plus"></i> <span>Requête de visite</span>
 						</a>
 					</li>
